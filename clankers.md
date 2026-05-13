@@ -24,3 +24,4 @@ Automated tracking of all Clankers PR contributors.
 | wislonl | 1 | 2026-05-13 |
 | Homie4570 | 1 | 2026-05-13 |
 | digzrow-coder | 1 | 2026-05-13 |
+| huthoinguyn | 1 | 2026-05-13 |
