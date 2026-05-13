@@ -77,7 +77,7 @@ jobs:
             execSync('git config user.name "github-actions[bot]"');
             execSync('git config user.email "github-actions[bot]@users.noreply.github.com"');
             execSync('git add clankers.md');
-            execSync(`git commit -m "track: update ${username}"`);
+            execSync(`git commit -m "clankers database: update ${username}"`);
             execSync('git pull --rebase origin main', { stdio: 'inherit' });
             execSync('git push', { stdio: 'inherit' });
             console.log(`Updated ${username}`);
