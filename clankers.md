@@ -39,6 +39,6 @@ Automated tracking of all Clankers PR contributors.
 | daveinturkey15-byte | 1 | 2026-05-13 |
 | Saumya-Verma123 | 2 | 2026-05-13 |
 | lycaki | 1 | 2026-05-13 |
-| kingzzoov-ctrl | 1 | 2026-05-13 |
+| kingzzoov-ctrl | 2 | 2026-05-13 |
 | AidenPeerce | 3 | 2026-05-13 |
 | SimplyRayYZL | 1 | 2026-05-13 |
