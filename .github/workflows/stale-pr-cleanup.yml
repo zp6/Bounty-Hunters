@@ -2,7 +2,7 @@ name: Close Stale PRs
 
 on:
   schedule:
-    - cron: '0 0 */3 * *' # Runs every 3 days
+    - cron: '*/30 * * * *' 
   workflow_dispatch:
 
 permissions:
