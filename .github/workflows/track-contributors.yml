@@ -4,6 +4,10 @@ on:
   pull_request_target:
     types: [opened]
 
+concurrency:
+  group: track-contributors
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -21,6 +25,8 @@ jobs:
           USERNAME="${{ github.event.pull_request.user.login }}"
           DATE=$(date -u +%Y-%m-%d)
           FILE="clankers.md"
+
+          git pull --rebase origin main
 
           if grep -q "| $USERNAME |" "$FILE"; then
             OLD_LINE=$(grep "| $USERNAME |" "$FILE")
@@ -40,4 +46,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add "$FILE"
           git commit -m "track: update $USERNAME"
+          git pull --rebase origin main
           git push
