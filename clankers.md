@@ -34,6 +34,7 @@ Automated tracking of all Clankers PR contributors.
 | kenproxx | 3 | 2026-05-13 |
 | juangenovardortiz | 3 | 2026-05-13 |
 | BerqiaMouad | 3 | 2026-05-13 |
+| boopy253 | 3 | 2026-05-14 |
 | tuvmdainam | 2 | 2026-05-13 |
 | davguij | 2 | 2026-05-13 |
 | SebnemC | 2 | 2026-05-13 |
@@ -41,7 +42,6 @@ Automated tracking of all Clankers PR contributors.
 | FJ-CX | 2 | 2026-05-13 |
 | digzrow-coder | 2 | 2026-05-13 |
 | realkoreanbeef | 2 | 2026-05-13 |
-| boopy253 | 2 | 2026-05-14 |
 | woairenzhi | 1 | 2026-05-13 |
 | wislonl | 1 | 2026-05-13 |
 | subhajitlucky | 1 | 2026-05-13 |
