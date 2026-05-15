@@ -23,3 +23,5 @@ from .responses import Response as Response
 from .routing import APIRouter as APIRouter
 from .websockets import WebSocket as WebSocket
 from .websockets import WebSocketDisconnect as WebSocketDisconnect
+from .security.oauth2 import OAuth2PasswordBearerWithRefresh as OAuth2PasswordBearerWithRefresh
+from .security.oauth2 import OAuth2RefreshRequestForm as OAuth2RefreshRequestForm
